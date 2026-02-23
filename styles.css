@@ -1,0 +1,23 @@
+body {
+  font family: sans-serif;
+}
+ 
+p, h1, h2{
+  color: purple;    
+}
+      a {
+color:orange
+}
+      a:hover {
+  color: red
+}
+      ul li {
+  font-style: oblique
+}
+      .int-link ol p {
+  font-weight:900
+}
+      #mail-link {
+  color:gray
+}
+  
