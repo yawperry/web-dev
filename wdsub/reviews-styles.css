@@ -1,0 +1,34 @@
+body {
+  margin:0px;
+  font-size: 14px;
+  font-family:, georgia;
+    background-color: #000000;
+  color: white
+}
+
+h1 {
+    font-family:Onest, serif;
+      font-size: 40px;
+  color: white
+}
+
+div.card   {
+  background-color:#EBA338 ;
+  margin-left: 175px;
+  margin-right: 175px;
+  padding: 0.5rem 1rem 0.5rem;
+  border-radius:100px;
+  border:solid 3px black; 
+  
+}
+#card-1 {
+  background-color:#EBA338 ;
+}
+#card-2 {
+  background-color: #FFFF00;
+  color: blue
+}
+
+#card-3 {
+  background-color: #964B00
+}
