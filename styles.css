@@ -1,4 +1,5 @@
-  font family: sans-serif;
+body {  
+font family: sans-serif;
   background-color: hsl(120, 100%, 13%);
 }
 
@@ -11,7 +12,7 @@ position: fixed;
 }
  
 h1 {
-  background-color:rgb(150, 75, 0);
+  background-color:purple;
    width:50%;
   padding:10px;
   margin-top:5px;
@@ -23,13 +24,13 @@ h1 {
 }
 
 p, h1, h2 {
-  color: black;    
+  color: yellow;    
 }
       a {
-color:rgb(150, 75, 0)
+color:yellow;
 }
       a:hover {
-  color: orange
+  color:red;
 }
       ul li {
   font-style: oblique
@@ -46,5 +47,5 @@ color:rgb(150, 75, 0)
     
 }
 
-}
+
   
