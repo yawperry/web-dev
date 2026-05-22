@@ -1,0 +1,45 @@
+body {
+  margin : 0px;
+  
+}
+
+.ttt-square {
+  border: solid green 3px;
+  min-height: 100px;
+  width: 30%;
+  float: left;
+}
+
+#parent {
+  margin : auto 80px;
+  margin-top: 200px;
+}
+
+#gameover {
+  background-color: rgba(0,0,0, 0.1);
+  width: 100vw;
+  height: 100vh; 
+  display:none;
+}
+
+#gameover div {
+  background-color: white;
+  width: 40%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px;
+  margin: 200px auto;
+  font-size: 2rem;
+  z-index: 2rem;
+ 
+}
+
+.ttt-row {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  width: 400px;
+  margin: 0px auto;
+}
+
+
