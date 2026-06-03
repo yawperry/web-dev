@@ -1,8 +1,7 @@
 // replace p1 and p2 numstrats with query parameters 
 let queryParams = new URLSearchParams(window.location.search);
-const P1_NUM_STRATS = queryParams.get("p1NumStrats");
-const P1_NUM_STRATS = queryParams.get("p2NumStrats");
-const P2_NUM_STRATS = 2;
+const P1_NUM_STRATS = Number(queryParams.get("p1NumStrats"));
+const P2_NUM_STRATS = Number(queryParams.get("p2NumStrats"));
 const PAYOFF_CONTENTS = "(<input type='number'><input type= 'number'>)";
 
 buildMatrix();
