@@ -50,8 +50,8 @@ function randomize () {
 }
 
 function compute () {
- let p1PayArr = document.querySelectorAll(".payoff-cell input: first-child");
- let p2PayArr = document.querySelectorAll(".payoff-cell input: last-child");
+ let p1PayArr = document.querySelectorAll(".payoff-cell input:first-child");
+ let p2PayArr = document.querySelectorAll(".payoff-cell input:last-child");
   let p2CellArr = document.querySelectorAll(".payoff-cell");
   
   for (const elem of payCellArr) {
