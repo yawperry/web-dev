@@ -67,12 +67,12 @@ function compute () {
     
     //identify the highest payoff in this column
     for (let i = 0; i < P1_NUM_STRATS; i++) {
-      if (number (p1PayArr[P2_NUM_STRATS*i + j ].value) > number(largest)) largest = p1PayArr[P2_NUM_STRATS*i + j ].value;
+      if (Number (p1PayArr[P2_NUM_STRATS*i + j ].value) > Number(largest)) largest = p1PayArr[P2_NUM_STRATS*i + j ].value;
     }
     
     //eliminate any cells which arent best responses
    for (let i = 0; i < P1_NUM_STRATS; i++) {
-      if (number (p1PayArr[P2_NUM_STRATS*i + j ].value) !=number(largest)) payCellArr[P2_NUM_STRATS*i+j].classList.add("eliminated");
+      if (Number (p1PayArr[P2_NUM_STRATS*i + j ].value) !=Number(largest)) payCellArr[P2_NUM_STRATS*i+j].classList.add("eliminated");
   }
   }
   
@@ -85,12 +85,12 @@ function compute () {
     
     //identify the highest payoff in this column
     for (let j = 0; j < P2_NUM_STRATS; j++) {
-      if (number (p2PayArr[P2_NUM_STRATS*i + j ].value) > number(largest)) largest = p2PayArr[P2_NUM_STRATS*i + j ].value;
+      if (Number (p2PayArr[P2_NUM_STRATS*i + j ].value) > Number(largest)) largest = p2PayArr[P2_NUM_STRATS*i + j ].value;
     }
     
     //eliminate any cells which arent best responses
    for (let j = 0; j < P2_NUM_STRATS; j++) {
-      if (number (p2PayArr[P2_NUM_STRATS*i + j ].value) !=number(largest)) payCellArr[P2_NUM_STRATS*i+j].classList.add("eliminated");
+      if (Number (p2PayArr[P2_NUM_STRATS*i + j ].value) !=Number(largest)) payCellArr[P2_NUM_STRATS*i+j].classList.add("eliminated");
   }
   }
   
